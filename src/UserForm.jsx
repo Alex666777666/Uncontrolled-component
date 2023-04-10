@@ -11,7 +11,7 @@ class UserForm extends React.Component {
       {}
     )
 
-    console.log(formDate)
+    this.props.onSubmit(formDate)
   }
 
   setRef = node => {
